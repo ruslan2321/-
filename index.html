@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/book 1.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Сайт учителя</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#" onclick="About()">Обо мне</a></li>
+        <li><a href="#" onclick="Achie()">Достижения</a></li>
+        <img src="img/book 1.png" alt="">
+        <li><a href="#" onclick="Photo()">Фотогалерея</a></li>
+        <li><a href="#" onclick="Contact()">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="text-header">
+      <h1>Ахтямова Равия Хасиятисламовна</h1>
+      <h3>Учитель англиского языка</h3>
+      <p onclick="Down()">&#8595;</p>
+    </div>
+  </header>
+  <main>
+    <div class="block_1" id="block_1">
+      <img src="img/311787 1.png" alt="">
+      <div class="block_text">
+        <h1>Добро пожаловать</h1>
+        <div class="line"></div>
+        <p>Здравствуйте, уважаемые посетители сайта! Меня зовут Ахтямова Равия Хасиятисламовна. Я учитель иностранного
+          языка в Тетюшский государственный колледж гражданской защиты. На этом сайте Вы найдёте мою биографию,
+          информацию о моих профессиональных достижениях и полезные учебные материалы. Также Вас ждет фотогалерея.</p>
+      </div>
+    </div>
+    <div class="aboutme" id="aboutme" > 
+        <h1>Обо мне</h1>  
+        <div class="blocks-about">
+          <img src="img/london-bridge (1).png" alt="" class="block-img-1">
+          <div class="block-about-1">
+            <p>Карьера:<br><br>
+            
+            Уровень профессионального образования: высшее.<br>
+            Специализация (по диплому): учитель английского и немецкого языков</p>
+        </div>
+        <img src="img/telephone-booth.png" alt="" class="block-img-2">
+        <div class="block-about-2">
+          <p>Общий стаж: 40 лет<br>
+          Педагогический стаж: 40 лет<br>
+          Стаж в данной должности: 25 лет<br>
+        </p>
+        </div>
+        <div class="block-about-3">
+          <p>“Детство прошло на берегу Каспийского моря. Юность и молодость в Казани.”</p>
+        </div>
+        </div>
+        
+        
+    </div>
+    <div class="achievements" id="achievements">
+      <h1>Достижения</h1>
+      <div class="img-achievements">
+        <img src="img/img-1.jpeg" alt="">
+        <img src="img/img-2.jpeg" alt="">
+        <img src="img/img-3.jpeg" alt="">
+        <img src="img/img-5.jpeg" alt="">
+      </div> 
+    </div>
+    <div class="photo-gallery" id="photogallery">
+      <h1>Фотогалерея</h1>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="img/img-4.jpeg" alt="">
+        </div>
+        <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&#129044;</button>
+        <button class="next-button" aria-label="Посмотреть следующий слайд">&#129046;</button>
+      </div>
+    </div>
+    <div class="up-btn" id="top-btn" onclick="Up()">
+      <a>&#129045;</a>
+    </div>
+  </main>
+  <footer>
+    <div id="contact" class="footer-text">
+      <h1>Контакты</h1>
+      <div class="contact">
+        <p>Телефон: +7 987 213-59-85</p>
+        <p>Почта: Teacher@mail.ru</p>
+        <div class="social">
+          <img src="img/telegram 1.png" alt="">
+          <img src="img/whatsapp 1.png" alt="">
+          <img src="img/vk 1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
