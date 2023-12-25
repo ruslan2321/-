@@ -56,4 +56,4 @@ function Up() {
 		behavior: 'smooth',
 	})
 }
-/* слайдер */
+/* Обратная связь */
